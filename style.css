@@ -1,0 +1,58 @@
+nav{
+    background-color: rgb(170, 202, 202);
+    height: 60px;
+    padding-top: 2px;
+    box-sizing: border-box;
+    margin-bottom: 90px;
+}
+.list{
+    position: relative;
+    left: 420px;
+    width: 400px;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 20px;
+    font-variant: small-caps;
+    font-size: large;
+}
+.Acceuil{
+    color: blue;
+}
+.Services{
+    color: brown;
+    border-bottom: 3px solid rgba(165, 42, 42, 0.523);
+    transition: 0.4s;
+}
+.Services:hover{
+    transform: translateY(-8px);
+}
+.Références{
+    color: black;
+}
+.Contact{
+    color: rgb(236, 16, 16);
+}
+#div{
+    display: flex;
+}
+.boite-1, .boite-2, .boite-3{
+    margin: 0 5px;
+}
+.boite-1{
+    background-color: rgba(142, 36, 36, 0.324);
+    border-radius: 5px;
+    width: 320px;
+}
+.boite-2{
+    background-color: rgba(36, 107, 142, 0.324);
+    border-radius: 5px;
+    width: 600px;
+}
+.boite-3{
+    background-color: rgba(142, 135, 36, 0.324);
+    border-radius: 5px;
+    width: 320px;
+}
+
